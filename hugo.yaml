@@ -24,7 +24,7 @@ menu:
     - name: About
       pageRef: /about
       weight: 2
-      -name: Contact
+      - name: Contact
       url: "mailto:Maggie@thesbtechgal.com"
       weight: 3
     - name: Search
