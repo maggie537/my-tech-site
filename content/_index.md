@@ -42,7 +42,7 @@ You can email me directly at [Maggie@thesbtechgal.com](mailto:Maggie@thesbtechga
 
   <div>
     <label style="display: block; font-weight: bold; margin-bottom: 5px;">Upload Photos / Screenshots (Optional):</label>
-    <input type="file" name="photo" accept="image/*" style="width: 100%;">
+   <input type="file" name="photo" accept="image/*" style="width: 100%; padding: 10px; background-color: #f4f4f4; border: 1px dashed #bbb; border-radius: 4px; cursor: pointer;">
   </div>
 
   <button type="submit" style="background-color: #0076ff; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 4px; cursor: pointer; font-weight: bold; align-self: flex-start;">Submit Support Request</button>
