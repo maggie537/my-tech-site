@@ -24,8 +24,9 @@ menu:
     - name: About
       pageRef: /about
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
+      -name: Contact
+      url: "mailto:Maggie@thesbtechgal.com"
+      weight: 3
       weight: 3
     - name: Search
       weight: 4
