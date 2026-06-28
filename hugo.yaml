@@ -27,7 +27,6 @@ menu:
       -name: Contact
       url: "mailto:Maggie@thesbtechgal.com"
       weight: 3
-      weight: 3
     - name: Search
       weight: 4
       params:
