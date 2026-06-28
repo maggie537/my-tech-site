@@ -1,17 +1,22 @@
 ---
-title: My Site
-toc: false
+title: Home
+titleText: "Save money, protect our coastal community. Choose repair over replacement."
 ---
 
-This is the landing page.
+Welcome to our computer tech company. We are dedicated to providing high-quality, sustainable technical solutions for our community. 
 
-## Explore
+### Our Services
 
-{{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
-{{< /cards >}}
+#### 🛠️ Technical Support & Repair
+Hardware, networking, operating systems, and software—including printers. We fix it right the first time to extend the life of your devices.
 
-## Documentation
+#### 🛡️ Security & Maintenance
+System optimization and security protocols to ensure your data stays safe and your machines run smoothly.
 
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+#### 🤖 AI Workflow Consulting
+Data-driven solutions for business efficiency. Learn how to implement modern AI tools into your daily workflows.
+
+---
+
+### Contact Us
+Ready to upgrade your security or repair your system? Get in touch today.
