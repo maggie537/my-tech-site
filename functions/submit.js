@@ -12,7 +12,7 @@ export async function onRequestPost(context) {
     return new Response(`Thank you! Request received from ${email}. We will contact you shortly.`, {
       headers: { "Content-Type": "text/html" },
     });
-
+    
   } catch (err) {
     return new Response("Error processing form submission: " + err.message, { status: 500 });
   }
