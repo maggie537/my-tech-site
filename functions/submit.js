@@ -36,7 +36,7 @@ export async function onRequestPost(context) {
         </body>
       </html>
     `, {
-      headers: { "Content-Type": "text/html" },
+      headers: { "Content-Type": "text/html; charset=utf-8" },
     });
 
   } catch (err) {
