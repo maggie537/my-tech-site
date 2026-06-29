@@ -4,13 +4,31 @@ export async function onRequestPost(context) {
     
     const email = formData.get("email");
     const description = formData.get("description");
+    const photoFile = formData.get("photo"); // Grabs the uploaded photo file
 
-    // Securely pull your keys from Cloudflare's environment memory
+    let photoTextLine = "No photo attached.";
+
+    // If the user actually uploaded an image file, process it safely
+    if (photoFile && photoFile.size > 0 && photoFile.name) {
+      // Create a clean, un-executable filename based on timestamp and client email
+      const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+      const safeFilename = `${timestamp}-${email.replace(/[^a-zA-Z0-9]/g, '_')}-${photoFile.name}`;
+
+      // Securely stream the binary file data straight into your Cloudflare R2 Cloud Bucket
+      await context.env.UPLOADS_BUCKET.put(safeFilename, photoFile.stream(), {
+        httpMetadata: { contentType: photoFile.type }
+      });
+
+      // Update the message text that will display on your Telegram app alert
+      photoTextLine = `📸 Photo Saved: See Cloudflare R2 dashboard under filename:\n${safeFilename}`;
+    }
+
+    // Pull credentials from your hidden dashboard memory
     const BOT_TOKEN = context.env.TELEGRAM_BOT_TOKEN;
     const CHAT_ID = context.env.TELEGRAM_CHAT_ID;
 
-    // Build the Telegram alert text block
-    const telegramMessage = `🚨 NEW SERVICE REQUEST 🚨\n\n📧 Client Email: ${email}\n\n📝 Problem Description:\n${description}`;
+    // Send the structured ticket log straight to your phone alert via Telegram
+    const telegramMessage = `🚨 NEW SERVICE REQUEST 🚨\n\n📧 Client Email: ${email}\n\n📝 Problem Description:\n${description}\n\n${photoTextLine}`;
     const telegramUrl = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
     
     await fetch(telegramUrl, {
@@ -22,7 +40,7 @@ export async function onRequestPost(context) {
       }),
     });
 
-    // What the user sees upon success
+    // Clean, encoded confirmation screen with a beautiful green checkmark
     return new Response(`
       <html>
         <body style="font-family: sans-serif; text-align: center; padding: 50px; background-color: #f9f9f9;">
