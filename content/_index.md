@@ -65,22 +65,57 @@ Based out of **Downtown Santa Barbara**. Offering highly convenient on-site trav
 
 <style>
 /* FORCE BRAND STYLE PROTOCOL */
-body, html, .hextra-body, main, section, .gdoc-page {
+body, html, 
+.hextra-body, 
+main, 
+section, 
+div, 
+article, 
+.gdoc-page, 
+.hx-bg-neutral-100, 
+.nextra-nav-container {
     background-color: #FFFFFF !important; 
     color: #1A1C1A !important;            
     font-family: 'Inter', sans-serif !important;
 }
-h1, h2, h3, h4, .hextra-title {
+
+/* ARCHITECTURAL TYPOGRAPHY & TRACKING */
+h1, h2, h3, h4, .hextra-title, .hx-text-neutral-900 {
     color: #1A1C1A !important;
     text-transform: uppercase !important;
     letter-spacing: 0.05em !important; 
     font-weight: 900 !important;
 }
+
+/* METADATA MONOSPACE FACE */
+ul, li, p, label, select, input, textarea, .sidebar-info, .sidebar-phone {
+    font-family: 'Inter', sans-serif;
+}
+
+/* TECHNICAL ANCHOR (FOREST GREEN) */
+a, .hx-text-primary-600 {
+    color: #2D4F38 !important;
+    text-decoration: underline !important;
+}
+
+/* SYSTEM ACCENT ACTIONS (TERRACOTTA CLAY) */
+.btn, button, type="submit", .hx-bg-primary-600 {
+    background-color: #A65E4E !important; 
+    color: #FFFFFF !important;
+    border: 1px solid #1A1C1A !important;
+    font-family: 'JetBrains Mono', monospace !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.1em !important;
+}
+
+/* HARD EDGES ONLY */
 *, input, select, textarea, .info-card, .sticky-sidebar-box, .btn, img, button {
     border-radius: 0px !important; 
     box-shadow: none !important;   
 }
-hr {
+
+/* BLUEPRINT LINE DIVISION */
+hr, border-b {
     border: 0 !important;
     border-top: 1px solid #E5E7E5 !important; 
 }
