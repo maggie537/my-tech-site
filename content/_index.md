@@ -3,7 +3,7 @@ title: SB Tech Gal
 titleText: "Save money, protect our coastal community. Choose repair over replacement."
 ---
 
-<div>
+{{< symmetry >}}
 <section id="about" class="section hero" style="text-align: center; padding: 60px 20px;">
 <h1>Trusted Experts in Our Industry Since 2026</h1>
 <p>We provide reliable, fast, and high-quality services to help you fix your problems.</p>
@@ -109,4 +109,4 @@ titleText: "Save money, protect our coastal community. Choose repair over replac
 </div>
 </div>
 </section>
-</div>
+{{< /symmetry >}}
