@@ -1,7 +1,8 @@
 ---
 title: SB Tech Gal
 titleText: "Save money, protect our coastal community. Choose repair over replacement."
-layout: full
+toc: false
+type: page
 ---
 
 <section id="about" style="text-align: center; padding: 60px 20px;">
@@ -53,7 +54,7 @@ Data-driven solutions for business efficiency. Learn how to implement modern AI 
 
 For the fastest diagnostic scheduling, complete your request below. **Our primary service format is direct device pickup and on-site dispatch.** Skip the traffic—we handle all transit diagnostics securely.
 
-<form action="/submit" method="POST" enctype="multipart/form-data" class="brand-contact-form">
+<form action="https://formspree.io/f/your-id" method="POST" class="brand-contact-form">
     <div class="form-row">
         <div class="form-field">
             <label>Your Email Address:</label>
@@ -64,7 +65,6 @@ For the fastest diagnostic scheduling, complete your request below. **Our primar
             <input type="tel" name="phone" required placeholder="805-XXX-XXXX">
         </div>
     </div>
-
     <div class="form-field">
         <label>How would you prefer to be contacted?</label>
         <div class="radio-group">
@@ -73,7 +73,6 @@ For the fastest diagnostic scheduling, complete your request below. **Our primar
             <label class="radio-label"><input type="radio" name="contact_preference" value="call"> Call Me</label>
         </div>
     </div>
-
     <div class="form-field">
         <label>Preferred Logistics Format:</label>
         <select name="service_location" required>
@@ -84,17 +83,10 @@ For the fastest diagnostic scheduling, complete your request below. **Our primar
             <option value="downtown-office">Meet at my Downtown Office (By Appointment Only)</option>
         </select>
     </div>
-
     <div class="form-field">
         <label>Describe the Hardware/Software Issue:</label>
         <textarea name="description" rows="5" required placeholder="Provide device model details and specific symptoms..."></textarea>
     </div>
-
-    <div class="form-field">
-        <label>Upload Photos / Screenshots (Optional):</label>
-        <input type="file" name="photo" accept="image/*">
-    </div>
-
     <button type="submit" class="btn submit-btn">Submit Support Request</button>
 </form>
 
@@ -110,33 +102,22 @@ For the fastest diagnostic scheduling, complete your request below. **Our primar
 * **Secondary Workspace:** Physical consultations available strictly by advance coordination at our Downtown Santa Barbara headquarters.
 
 <style>
-body, html, 
-.hextra-body, 
-main, 
-section, 
-div, 
-article, 
-.gdoc-page, 
-.hx-bg-neutral-100, 
-.nextra-nav-container {
+body, html, main, section, div, article, .hextra-body, .hx-bg-neutral-100, .nextra-nav-container {
     background-color: #FFFFFF !important; 
     color: #1A1C1A !important;            
     font-family: 'Inter', sans-serif !important;
 }
-
 h1, h2, h3, h4, .hextra-title, .hx-text-neutral-900 {
     color: #2D4F38 !important; 
     text-transform: uppercase !important;
     letter-spacing: 0.05em !important; 
     font-weight: 900 !important;
 }
-
 a, .hx-text-primary-600, .nextra-nav-container a:hover {
     color: #A65E4E !important; 
     text-decoration: underline !important;
     font-weight: 600 !important;
 }
-
 .brand-contact-form {
     display: flex;
     flex-direction: column;
@@ -144,13 +125,11 @@ a, .hx-text-primary-600, .nextra-nav-container a:hover {
     max-width: 800px;
     margin-top: 25px;
 }
-
 .form-row {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
-
 .form-field {
     display: flex;
     flex-direction: column;
@@ -158,26 +137,22 @@ a, .hx-text-primary-600, .nextra-nav-container a:hover {
     flex: 1;
     min-width: 240px;
 }
-
 .form-field label {
     font-weight: bold;
     font-size: 0.9rem;
     text-transform: uppercase;
 }
-
 .form-field input, .form-field select, .form-field textarea {
     padding: 12px;
     border: 1px solid #1A1C1A;
     outline: none;
     background: #FFF;
 }
-
 .radio-group {
     display: flex;
     gap: 20px;
     align-items: center;
 }
-
 .radio-label {
     font-weight: normal !important;
     text-transform: none !important;
@@ -186,18 +161,10 @@ a, .hx-text-primary-600, .nextra-nav-container a:hover {
     gap: 6px;
     cursor: pointer;
 }
-
 .radio-label input {
     accent-color: #A65E4E;
 }
-
-.btn, 
-button, 
-input[type="submit"], 
-.submit-btn,
-.hextra-button,
-a[href="#services-page"],
-.hx-bg-primary-600 {
+.btn, button, input[type="submit"], .submit-btn, .hextra-button, a[href="#services-page"] {
     background-color: #A65E4E !important; 
     color: #FFFFFF !important;
     border: 1px solid #1A1C1A !important;
@@ -210,12 +177,10 @@ a[href="#services-page"],
     align-self: flex-start;
     cursor: pointer;
 }
-
-*, input, select, textarea, .info-card, .sticky-sidebar-box, .btn, img, button {
+*, input, select, textarea, .info-card, .btn, img, button {
     border-radius: 0px !important; 
     box-shadow: none !important;   
 }
-
 hr {
     border: 0 !important;
     border-top: 1px solid #E5E7E5 !important; 
