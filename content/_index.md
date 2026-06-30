@@ -2,6 +2,7 @@
 title: SB Tech Gal
 titleText: "Save money, protect our coastal community. Choose repair over replacement."
 layout: full
+toc: false
 ---
 
 <section id="about" style="text-align: center; padding: 60px 20px;">
