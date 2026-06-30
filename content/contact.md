@@ -4,7 +4,7 @@ titleText:
 ---
 
 ### Contact
-You can email me directly at [Maggie@thesbtechgal.com](mailto:Maggie@thesbtechgal.com), call or text at 805 225 7885, or use the quick form below to submit your issue along with pictures of the problem.
+You can email me directly at [Maggie@thesbtechgal.com](mailto:Maggie@thesbtechgal.com), call or text at 805 225 7885, or use the box below to describe your issue(s).  Feel free to share any images as well. 
 
 <form action="/submit" method="POST" enctype="multipart/form-data" style="margin-top: 20px; display: flex; flex-direction: column; max-width: 500px; gap: 15px;">
   
@@ -14,7 +14,7 @@ You can email me directly at [Maggie@thesbtechgal.com](mailto:Maggie@thesbtechga
   </div>
 
   <div>
-    <label style="display: block; font-weight: bold; margin-bottom: 5px;">Describe Your Problem:</label>
+    <label style="display: block; font-weight: bold; margin-bottom: 5px;">Describe the issue(s) you are having:</label>
     <textarea name="description" rows="5" required placeholder="What's going wrong? Be as detailed as you like..." style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit;"></textarea>
   </div>
 
