@@ -55,7 +55,7 @@ titleText: "Save money, protect our coastal community. Choose repair over replac
 
 <aside class="services-sidebar">
 <div class="sticky-sidebar-box" style="border-radius: 0px; border: 1px solid #1A1C1A; padding: 0;">
-<img src="https://images.unsplash.com/photo-1601524909162-be87252be298?q=80&w=400&auto=format&fit=crop" alt="IT Specialist Workspace Tools" style="width: 100%; height: 180px; object-fit: cover; display: block; border-bottom: 1px solid #1A1C1A;">
+<img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&q=80" alt="IT Specialist Workspace Tools" style="width: 100%; height: 180px; object-fit: cover; display: block; border-bottom: 1px solid #1A1C1A;">
 
 <div style="padding: 25px;">
 <h3>Need Quick Assistance?</h3>
