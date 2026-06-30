@@ -77,15 +77,71 @@
         </div>
     </section>
 
-    <section id="contact" class="section contact">
-        <h2>Contact Us</h2>
-        <p>Give us a call or send us a message to set up an appointment.</p>
-        <div class="contact-info">
-            <p><strong>Phone:</strong> (123) 456-7890</p>
-            <p><strong>Area Serviced:</strong> City, Region, or Remote</p>
-        </div>
-    </section>
+<section id="contact" class="contact-container">
+    <h2>Contact Us</h2>
+    <p class="contact-subtitle">Get in touch to schedule an appointment or ask a question.</p>
 
+    <div class="contact-layout">
+        
+        <div class="contact-column-form">
+            <p>You can email directly at <a href="mailto:Maggie@thesbtechgal.com">Maggie@thesbtechgal.com</a>, call/text at <strong>805-225-7885</strong>, or use the secure form below:</p>
+            
+            <form action="/submit" method="POST" enctype="multipart/form-data" class="emulated-form">
+                
+                <div class="form-group">
+                    <label>Your Email Address:</label>
+                    <input type="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label>How would you like to meet?</label>
+                    <select name="service_location" required>
+                        <option value="" disabled selected>Select an option...</option>
+                        <option value="home-visit">In-Home Support (I come to you)</option>
+                        <option value="office-visit">Office Visit (I come to your business)</option>
+                        <option value="downtown-office">Meet at my Downtown Office</option>
+                        <option value="remote">Remote Support (Online/Phone)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Describe the issue(s) you are having:</label>
+                    <textarea name="description" rows="5" required placeholder="What's going wrong? Be as detailed as you like..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Upload Photos / Screenshots (Optional):</label>
+                    <input type="file" name="photo" accept="image/*" class="file-input">
+                </div>
+
+                <button type="submit" class="btn submit-btn">Submit Support Request</button>
+            </form>
+        </div>
+
+        <div class="contact-column-info">
+            <div class="info-card">
+                <h3>Service Coverage</h3>
+                <p>Based out of <strong>Downtown Santa Barbara</strong>. Offering convenient on-site travel directly to your residential home or commercial office space.</p>
+                
+                <p><strong>Phone:</strong> 805-225-7885 (Call or Text)</p>
+                <p><strong>Email:</strong> Maggie@thesbtechgal.com</p>
+            </div>
+
+            <div class="map-wrapper">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m4!1s0x80e91424660451cf%3A0x63eb875e670b3c66!2sDowntown%2C+Santa+Barbara%2C+CA!5e0!3m2!1sen!2sus!4v1719750000000!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="300" 
+                    style="border:0; border-radius: 8px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+
+    </div>
+</section>
     <footer>
         <p>&copy; 2026 My Business. All rights reserved.</p>
     </footer>
