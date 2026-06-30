@@ -61,9 +61,7 @@ Data-driven solutions for business efficiency. Learn how to implement modern AI 
             <strong>Our primary service format is direct device pickup and on-site dispatch.</strong> 
             Skip the traffic—we handle all transit diagnostics securely.
         </p>
-
         <form action="/submit" method="POST" enctype="multipart/form-data" style="display: flex; flex-direction: column; gap: 20px;">
-            
             <div style="display: flex; flex-wrap: wrap; gap: 20px;">
                 <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 5px;">
                     <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">Your Email Address:</label>
@@ -74,7 +72,6 @@ Data-driven solutions for business efficiency. Learn how to implement modern AI 
                     <input type="tel" name="phone" required placeholder="805-XXX-XXXX" style="padding: 12px; border: 1px solid #1A1C1A; outline: none; background: #FFF;">
                 </div>
             </div>
-
             <div style="display: flex; flex-direction: column; gap: 8px; padding: 5px 0;">
                 <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">How would you prefer to be contacted?</label>
                 <div style="display: flex; gap: 20px; align-items: center;">
@@ -89,7 +86,6 @@ Data-driven solutions for business efficiency. Learn how to implement modern AI 
                     </label>
                 </div>
             </div>
-            
             <div style="display: flex; flex-direction: column; gap: 5px;">
                 <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">Preferred Logistics Format:</label>
                 <select name="service_location" required style="padding: 12px; border: 1px solid #1A1C1A; outline: none; background: #FFF;">
@@ -100,45 +96,36 @@ Data-driven solutions for business efficiency. Learn how to implement modern AI 
                     <option value="downtown-office">Meet at my Downtown Office (By Appointment Only)</option>
                 </select>
             </div>
-
             <div style="display: flex; flex-direction: column; gap: 5px;">
                 <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">Describe the Hardware/Software Issue:</label>
                 <textarea name="description" rows="5" required placeholder="Provide device model details and specific symptoms..." style="padding: 12px; border: 1px solid #1A1C1A; outline: none; resize: vertical; background: #FFF;"></textarea>
             </div>
-
             <div style="display: flex; flex-direction: column; gap: 5px;">
                 <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">Upload Photos / Screenshots (Optional):</label>
                 <input type="file" name="photo" accept="image/*" style="padding: 8px 0;">
             </div>
-
             <button type="submit" class="btn" style="align-self: flex-start; cursor: pointer; padding: 15px 30px;">Submit Support Request</button>
         </form>
     </div>
 
     <div style="flex: 1; min-width: 260px; display: flex; flex-direction: column; gap: 30px;">
-        
         <div style="border: 1px solid #1A1C1A; padding: 25px; background-color: #FFFFFF;">
             <h3 style="margin-top: 0; font-size: 1.1rem; border-bottom: 1px solid #E5E7E5; padding-bottom: 10px;">Direct Channels</h3>
             <p style="margin: 15px 0 5px 0;"><strong>Call or Text:</strong></p>
             <p style="font-size: 1.2rem; font-weight: bold; margin: 0;">805-225-7885</p>
-            
             <p style="margin: 20px 0 5px 0;"><strong>Direct Intake Email:</strong></p>
             <p style="margin: 0;"><a href="mailto:Maggie@thesbtechgal.com">Maggie@thesbtechgal.com</a></p>
         </div>
-
         <div style="border: 1px solid #1A1C1A; padding: 25px; background-color: #FFFFFF;">
             <h3 style="margin-top: 0; font-size: 1.1rem; border-bottom: 1px solid #E5E7E5; padding-bottom: 10px;">Operational Parameters</h3>
             <p style="margin: 15px 0 5px 0;"><strong>Service Hours:</strong></p>
             <p style="margin: 0; font-size: 0.95rem;">Monday - Friday: 9am - 5pm</p>
             <p style="margin: 5px 0 0 0; font-size: 0.95rem;">Saturday - Sunday: Closed</p>
-
             <p style="margin: 20px 0 5px 0;"><strong>Primary Coverage Area:</strong></p>
             <p style="margin: 0; font-size: 0.95rem;">Proudly providing direct mobile device pickup and tech deployment services throughout Santa Barbara, CA.</p>
-            
             <p style="margin: 20px 0 5px 0; color: #666; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em;">Secondary Workspace:</p>
             <p style="margin: 0; font-size: 0.85rem; color: #555;">Physical consultations available strictly by advance coordination at our Downtown Santa Barbara headquarters.</p>
         </div>
-
     </div>
 
 </div>
