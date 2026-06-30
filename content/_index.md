@@ -87,25 +87,28 @@ h1, h2, h3, h4, .hextra-title, .hx-text-neutral-900 {
     font-weight: 900 !important;
 }
 
-/* METADATA MONOSPACE FACE */
-ul, li, p, label, select, input, textarea, .sidebar-info, .sidebar-phone {
-    font-family: 'Inter', sans-serif;
-}
-
 /* TECHNICAL ANCHOR (FOREST GREEN) */
-a, .hx-text-primary-600 {
+a, .hx-text-primary-600, .nextra-nav-container a:hover {
     color: #2D4F38 !important;
     text-decoration: underline !important;
 }
 
-/* SYSTEM ACCENT ACTIONS (TERRACOTTA CLAY) */
-.btn, button, type="submit", .hx-bg-primary-600 {
+/* SYSTEM ACCENT ACTIONS (TERRACOTTA CLAY FORCE) */
+.btn, 
+button, 
+input[type="submit"], 
+.submit-btn,
+.hextra-button,
+a[href="#services-page"],
+.hx-bg-primary-600 {
     background-color: #A65E4E !important; 
     color: #FFFFFF !important;
     border: 1px solid #1A1C1A !important;
     font-family: 'JetBrains Mono', monospace !important;
     text-transform: uppercase !important;
     letter-spacing: 0.1em !important;
+    padding: 10px 20px !important;
+    display: inline-block !important;
 }
 
 /* HARD EDGES ONLY */
@@ -115,7 +118,7 @@ a, .hx-text-primary-600 {
 }
 
 /* BLUEPRINT LINE DIVISION */
-hr, border-b {
+hr, .border-b {
     border: 0 !important;
     border-top: 1px solid #E5E7E5 !important; 
 }
