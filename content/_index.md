@@ -1,5 +1,5 @@
 ---
-title: Home
+title: SB Tech Gal
 titleText: "Save money, protect our coastal community. Choose repair over replacement."
 ---
 
