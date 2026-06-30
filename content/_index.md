@@ -5,13 +5,10 @@ titleText: "Save money, protect our coastal community. Choose repair over replac
 
 Welcome to our computer tech company. We are dedicated to providing high-quality, sustainable technical solutions for our community. 
 
-### 📍 Local Service & Convenience
+###  Local Service & Convenience
 We are proudly located in **Downtown Santa Barbara**. To make your life easier and keep things local, we offer **complimentary device pickup and drop-off** for services within a 5-mile radius (covering most of SB, Goleta, and Montecito). 
 
----
-
-### Our Services
-
+### Services
 #### 🛠️ Technical Support & Repair
 Hardware, networking, operating systems, and software—including printers. We fix it right the first time to extend the life of your devices.
 
@@ -20,8 +17,6 @@ System optimization and security protocols to ensure your data stays safe and yo
 
 #### 🤖 AI Workflow Consulting
 Data-driven solutions for business efficiency. Learn how to implement modern AI tools into your daily workflows.
-
----
 
 ### Contact Us
 Ready to repair your system or upgrade your workflows? Drop us a line below. 
