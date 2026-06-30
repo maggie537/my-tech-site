@@ -50,8 +50,7 @@ nav a {
     text-align: center;
 }
 
-/* --- NEW MACMECHANIC-STYLE SERVICES LAYOUT STYLES --- */
-
+/* --- MACMECHANIC-STYLE SERVICES LAYOUT STYLES --- */
 .services-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -155,7 +154,7 @@ nav a {
     background-color: #004b99;
 }
 
-/* DESKTOP RESPONSIVENESS */
+/* SERVICES DESKTOP RESPONSIVENESS */
 @media (min-width: 768px) {
     .services-layout {
         flex-direction: row; /* Switches to side-by-side on desktop */
@@ -165,5 +164,115 @@ nav a {
         position: -webkit-sticky;
         position: sticky;
         top: 100px; /* Sits nicely below your persistent nav bar when scrolling */
+    }
+}
+
+/* --- CONTACT SECTION LAYOUT --- */
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.contact-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.contact-layout {
+    display: flex;
+    flex-direction: column; /* Mobile first stack */
+    gap: 50px;
+}
+
+/* Form Styling Details */
+.contact-column-form {
+    flex: 1.2; /* Gives slightly more horizontal room to the form */
+}
+
+.emulated-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.emulated-form input[type="email"],
+.emulated-form select,
+.emulated-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.file-input {
+    width: 100%;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px dashed #bbb;
+    border-radius: 6px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    align-self: flex-start;
+    border: none;
+    cursor: pointer;
+}
+
+/* Info & Map Styling Details */
+.contact-column-info {
+    flex: 1;
+}
+
+.info-card {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.info-card h3 {
+    margin-top: 0;
+    color: #222;
+}
+
+.info-card p {
+    color: #444;
+    line-height: 1.6;
+}
+
+.map-wrapper {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* CONTACT DESKTOP RESPONSIVENESS */
+@media (min-width: 768px) {
+    .contact-layout {
+        flex-direction: row; /* Side-by-side view */
     }
 }
