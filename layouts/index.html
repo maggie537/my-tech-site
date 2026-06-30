@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The SB Tech Gal | Santa Barbara Computer & Printer Repair</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #F5F5F0; color: #2D4F38; margin: 0; padding: 0; }
+        .container { max-width: 1000px; margin: auto; padding: 20px; }
+        
+        /* Header */
+        header { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; border-bottom: 2px solid #2D4F38; }
+        .logo { font-weight: bold; font-size: 24px; text-decoration: none; color: #2D4F38; }
+        nav a { margin-left: 20px; text-decoration: none; color: #2D4F38; font-weight: 500; }
+        
+        /* Button */
+        .btn { background-color: #A65E4E; color: white; padding: 10px 20px; text-decoration: none; border-radius: 0; display: inline-block; transition: background 0.2s; }
+        .btn:hover { background-color: #8b4e40; }
+        
+        /* Hero */
+        .hero { padding: 60px 0; display: flex; gap: 40px; align-items: center; }
+        .hero-text { flex: 1; }
+        .hero-text h1 { font-size: 38px; line-height: 1.2; margin-bottom: 20px; }
+        .hero-image { flex: 1; height: 300px; background: #e2e2d9; border: 2px solid #2D4F38; display: flex; align-items: center; justify-content: center; color: #2D4F38; font-style: italic; }
+        
+        /* Services */
+        .services { display: flex; gap: 20px; margin-top: 40px; }
+        .card { flex: 1; padding: 20px; border: 2px solid #2D4F38; background: white; text-align: center; }
+        .card h3 { margin: 0; font-size: 20px; }
+        
+        /* Philosophy */
+        .philosophy { background: #2D4F38; color: white; padding: 40px; margin-top: 40px; text-align: center; }
+        .philosophy h2 { margin-top: 0; color: #F5F5F0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="/" class="logo">The SB Tech Gal</a>
+            <nav>
+                <a href="/docs">Services</a>
+                <a href="/about">About</a>
+                <a href="/docs" class="btn">Request Help</a>
+            </nav>
+        </header>
 
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Professional Computer & Printer Repair in Santa Barbara.</h1>
+                <p>Sustainable, precision-focused IT support for your home and business.</p>
+                <br>
+                <a href="/docs" class="btn">Book a Repair Request</a>
+            </div>
+            <div class="hero-image">
+                <span>[ Artisan Tech Workspace ]</span>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="card"><h3>💻 Computer Repair</h3></div>
+            <div class="card"><h3>🖨️ Printer Repair</h3></div>
+            <div class="card"><h3>🧠 Consulting</h3></div>
+        </section>
+
+        <section class="philosophy">
+            <h2>Repair Over Replacement</h2>
+            <p>We believe in extending the life of your technology through expert, localized service.</p>
+        </section>
+    </div>
+</body>
+</html>
