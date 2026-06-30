@@ -18,11 +18,11 @@ titleText: "Save money, protect our coastal community. Choose repair over replac
 <h2>Our Professional Services</h2>
 <p class="intro-text">We provide top-tier support and repair solutions designed to keep you up and running efficiently.</p>
 
-<div style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 50px; align-items: center;">
-    <div style="flex: 1; min-width: 280px; border: 1px solid #1A1C1A;">
+<div style="display: flex; flex-wrap: wrap; gap: 40px; margin-bottom: 50px; align-items: center;">
+    <div style="flex: 1; min-width: 260px; max-width: 320px; border: 1px solid #1A1C1A;">
         <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80" alt="Macbook and iMac Repair" style="width: 100%; height: 220px; object-fit: cover; display: block;">
     </div>
-    <div style="flex: 1.5; min-width: 280px;">
+    <div style="flex: 2.5; min-width: 300px;">
         <h3 style="margin-top: 0;">Technical Support & Repair</h3>
         <p>Hardware, networking, operating systems, and software—including printers. We fix it right the first time to extend the life of your devices.</p>
         <ul>
@@ -33,8 +33,8 @@ titleText: "Save money, protect our coastal community. Choose repair over replac
     </div>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 50px; align-items: center;">
-    <div style="flex: 1.5; min-width: 280px; order: 2;">
+<div style="display: flex; flex-wrap: wrap; gap: 40px; margin-bottom: 50px; align-items: center;">
+    <div style="flex: 2.5; min-width: 300px; order: 2;">
         <h3 style="margin-top: 0;">Security & Upgrades</h3>
         <p>System optimization and security protocols to ensure your data stays safe and your machines run smoothly. Upgrading storage and memory can make older devices faster than the day they were purchased.</p>
         <ul>
@@ -43,16 +43,16 @@ titleText: "Save money, protect our coastal community. Choose repair over replac
             <li>Solid-state drive (SSD) and memory upgrades</li>
         </ul>
     </div>
-    <div style="flex: 1; min-width: 280px; order: 1; border: 1px solid #1A1C1A;">
+    <div style="flex: 1; min-width: 260px; max-width: 320px; order: 1; border: 1px solid #1A1C1A;">
         <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=600&q=80" alt="Hardware Upgrades" style="width: 100%; height: 220px; object-fit: cover; display: block;">
     </div>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 40px; align-items: center;">
-    <div style="flex: 1; min-width: 280px; border: 1px solid #1A1C1A;">
+<div style="display: flex; flex-wrap: wrap; gap: 40px; margin-bottom: 40px; align-items: center;">
+    <div style="flex: 1; min-width: 260px; max-width: 320px; border: 1px solid #1A1C1A;">
         <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80" alt="AI Workflow Consulting" style="width: 100%; height: 220px; object-fit: cover; display: block;">
     </div>
-    <div style="flex: 1.5; min-width: 280px;">
+    <div style="flex: 2.5; min-width: 300px;">
         <h3 style="margin-top: 0;">AI Workflow Consulting</h3>
         <p>Data-driven solutions for business efficiency. Learn how to implement modern AI tools into your daily workflows safely and securely.</p>
         <ul>
