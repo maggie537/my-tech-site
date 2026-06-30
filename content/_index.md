@@ -62,3 +62,26 @@ Based out of **Downtown Santa Barbara**. Offering highly convenient on-site trav
 **Direct Contact:** Maggie@thesbtechgal.com
 
 </section>
+
+<style>
+/* FORCE BRAND STYLE PROTOCOL */
+body, html, .hextra-body, main, section, .gdoc-page {
+    background-color: #FFFFFF !important; 
+    color: #1A1C1A !important;            
+    font-family: 'Inter', sans-serif !important;
+}
+h1, h2, h3, h4, .hextra-title {
+    color: #1A1C1A !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important; 
+    font-weight: 900 !important;
+}
+*, input, select, textarea, .info-card, .sticky-sidebar-box, .btn, img, button {
+    border-radius: 0px !important; 
+    box-shadow: none !important;   
+}
+hr {
+    border: 0 !important;
+    border-top: 1px solid #E5E7E5 !important; 
+}
+</style>
