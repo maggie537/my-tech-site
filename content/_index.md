@@ -18,38 +18,49 @@ titleText: "Save money, protect our coastal community. Choose repair over replac
 <h2>Our Professional Services</h2>
 <p class="intro-text">We provide top-tier support and repair solutions designed to keep you up and running efficiently.</p>
 
-<div style="margin-bottom: 40px; border: 1px solid #1A1C1A;">
-<img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?q=80&w=1200&auto=format&fit=crop" alt="Computer Motherboard Hardware" style="width: 100%; height: 300px; object-fit: cover; display: block;">
+<div style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 50px; align-items: center;">
+    <div style="flex: 1; min-width: 280px; border: 1px solid #1A1C1A;">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80" alt="Macbook and iMac Repair" style="width: 100%; height: 220px; object-fit: cover; display: block;">
+    </div>
+    <div style="flex: 1.5; min-width: 280px;">
+        <h3 style="margin-top: 0;">Technical Support & Repair</h3>
+        <p>Hardware, networking, operating systems, and software—including printers. We fix it right the first time to extend the life of your devices.</p>
+        <ul>
+            <li>Component diagnostics and replacement</li>
+            <li>Network configuration and troubleshooting</li>
+            <li>Printer and accessory setup</li>
+        </ul>
+    </div>
 </div>
 
-<div class="service-block">
-<h3>Technical Support & Repair</h3>
-<p>Hardware, networking, operating systems, and software—including printers. We fix it right the first time to extend the life of your devices.</p>
-<ul>
-<li>Component diagnostics and replacement</li>
-<li>Network configuration and troubleshooting</li>
-<li>Printer and accessory setup</li>
-</ul>
+<div style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 50px; align-items: center;">
+    <div style="flex: 1.5; min-width: 280px; order: 2;">
+        <h3 style="margin-top: 0;">Security & Upgrades</h3>
+        <p>System optimization and security protocols to ensure your data stays safe and your machines run smoothly. Upgrading storage and memory can make older devices faster than the day they were purchased.</p>
+        <ul>
+            <li>Malware and virus removal</li>
+            <li>Performance tuning and hardware cleanup</li>
+            <li>Solid-state drive (SSD) and memory upgrades</li>
+        </ul>
+    </div>
+    <div style="flex: 1; min-width: 280px; order: 1; border: 1px solid #1A1C1A;">
+        <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=600&q=80" alt="Hardware Upgrades" style="width: 100%; height: 220px; object-fit: cover; display: block;">
+    </div>
 </div>
 
-<div class="service-block">
-<h3>Security & Maintenance</h3>
-<p>System optimization and security protocols to ensure your data stays safe and your machines run smoothly.</p>
-<ul>
-<li>Malware and virus removal</li>
-<li>Performance tuning and cleanup</li>
-<li>Data backup solutions</li>
-</ul>
-</div>
-
-<div class="service-block">
-<h3>AI Workflow Consulting</h3>
-<p>Data-driven solutions for business efficiency. Learn how to implement modern AI tools into your daily workflows.</p>
-<ul>
-<li>Workflow automation audits</li>
-<li>Custom AI tool integrations</li>
-<li>Employee productivity training</li>
-</ul>
+<div style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 40px; align-items: center;">
+    <div style="flex: 1; min-width: 280px; border: 1px solid #1A1C1A;">
+        <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80" alt="AI Workflow Consulting" style="width: 100%; height: 220px; object-fit: cover; display: block;">
+    </div>
+    <div style="flex: 1.5; min-width: 280px;">
+        <h3 style="margin-top: 0;">AI Workflow Consulting</h3>
+        <p>Data-driven solutions for business efficiency. Learn how to implement modern AI tools into your daily workflows safely and securely.</p>
+        <ul>
+            <li>Workflow automation audits</li>
+            <li>Custom AI tool integrations</li>
+            <li>Employee productivity training</li>
+        </ul>
+    </div>
 </div>
 </main>
 
