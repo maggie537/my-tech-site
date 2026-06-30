@@ -19,15 +19,11 @@ markup:
 menu:
   main:
     - name: Services
-      pageRef: /docs
+      pageRef: "/#services-page"  # Points to the services section on the home page
       weight: 1
     - name: Contact
-      pageRef: /contact
+      pageRef: "/#contact"        # Points to the contact section on the home page
       weight: 3
-    - name: Search
-      weight: 4
-      params:
-        type: search
    
     
 
