@@ -2,7 +2,6 @@
 title: SB Tech Gal
 titleText: "Save money, protect our coastal community. Choose repair over replacement."
 layout: full
-toc: false
 ---
 
 <section id="about" style="text-align: center; padding: 60px 20px;">
@@ -50,22 +49,103 @@ Data-driven solutions for business efficiency. Learn how to implement modern AI 
 
 <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
 
-<section id="contact">
+<section id="contact" style="padding: 20px 0;">
 
-## Contact Us
-Get in touch to schedule an appointment or ask a question.
+## Contact Support & Service
 
-You can email directly at Maggie@thesbtechgal.com, call or text at **805-225-7885**, or use our secure client channels.
+<div style="display: flex; flex-wrap: wrap; gap: 50px; margin-top: 30px;">
 
-### Service Coverage Area
-Based out of **Downtown Santa Barbara**. Offering highly convenient on-site travel directly to your residential home or commercial office workspace.
+    <div style="flex: 2; min-width: 320px;">
+        <p style="margin-bottom: 25px; font-size: 1.1rem; line-height: 1.6;">
+            For the fastest diagnostic scheduling, complete your request below. 
+            <strong>Our primary service format is direct device pickup and on-site dispatch.</strong> 
+            Skip the traffic—we handle all transit diagnostics securely.
+        </p>
 
-**Direct Contact:** Maggie@thesbtechgal.com
+        <form action="/submit" method="POST" enctype="multipart/form-data" style="display: flex; flex-direction: column; gap: 20px;">
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+                <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 5px;">
+                    <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">Your Email Address:</label>
+                    <input type="email" name="email" required style="padding: 12px; border: 1px solid #1A1C1A; outline: none; background: #FFF;">
+                </div>
+                <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 5px;">
+                    <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">Phone Number:</label>
+                    <input type="tel" name="phone" required placeholder="805-XXX-XXXX" style="padding: 12px; border: 1px solid #1A1C1A; outline: none; background: #FFF;">
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 8px; padding: 5px 0;">
+                <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">How would you prefer to be contacted?</label>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                    <label style="font-weight: normal; text-transform: none; display: flex; align-items: center; gap: 6px; cursor: pointer;">
+                        <input type="radio" name="contact_preference" value="email" checked style="accent-color: #A65E4E;"> Email Me
+                    </label>
+                    <label style="font-weight: normal; text-transform: none; display: flex; align-items: center; gap: 6px; cursor: pointer;">
+                        <input type="radio" name="contact_preference" value="text" style="accent-color: #A65E4E;"> Text/SMS Me
+                    </label>
+                    <label style="font-weight: normal; text-transform: none; display: flex; align-items: center; gap: 6px; cursor: pointer;">
+                        <input type="radio" name="contact_preference" value="call" style="accent-color: #A65E4E;"> Call Me
+                    </label>
+                </div>
+            </div>
+            
+            <div style="display: flex; flex-direction: column; gap: 5px;">
+                <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">Preferred Logistics Format:</label>
+                <select name="service_location" required style="padding: 12px; border: 1px solid #1A1C1A; outline: none; background: #FFF;">
+                    <option value="pickup" selected>Secure Device Pickup (Recommended / Most Convenient)</option>
+                    <option value="home-visit">On-Site Residential Support (I come to your home)</option>
+                    <option value="office-visit">On-Site Commercial Support (I come to your business)</option>
+                    <option value="remote">Remote Digital Support (Online/Phone)</option>
+                    <option value="downtown-office">Meet at my Downtown Office (By Appointment Only)</option>
+                </select>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 5px;">
+                <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">Describe the Hardware/Software Issue:</label>
+                <textarea name="description" rows="5" required placeholder="Provide device model details and specific symptoms..." style="padding: 12px; border: 1px solid #1A1C1A; outline: none; resize: vertical; background: #FFF;"></textarea>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 5px;">
+                <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">Upload Photos / Screenshots (Optional):</label>
+                <input type="file" name="photo" accept="image/*" style="padding: 8px 0;">
+            </div>
+
+            <button type="submit" class="btn" style="align-self: flex-start; cursor: pointer; padding: 15px 30px;">Submit Support Request</button>
+        </form>
+    </div>
+
+    <div style="flex: 1; min-width: 260px; display: flex; flex-direction: column; gap: 30px;">
+        
+        <div style="border: 1px solid #1A1C1A; padding: 25px; background-color: #FFFFFF;">
+            <h3 style="margin-top: 0; font-size: 1.1rem; border-bottom: 1px solid #E5E7E5; padding-bottom: 10px;">Direct Channels</h3>
+            <p style="margin: 15px 0 5px 0;"><strong>Call or Text:</strong></p>
+            <p style="font-size: 1.2rem; font-weight: bold; margin: 0;">805-225-7885</p>
+            
+            <p style="margin: 20px 0 5px 0;"><strong>Direct Intake Email:</strong></p>
+            <p style="margin: 0;"><a href="mailto:Maggie@thesbtechgal.com">Maggie@thesbtechgal.com</a></p>
+        </div>
+
+        <div style="border: 1px solid #1A1C1A; padding: 25px; background-color: #FFFFFF;">
+            <h3 style="margin-top: 0; font-size: 1.1rem; border-bottom: 1px solid #E5E7E5; padding-bottom: 10px;">Operational Parameters</h3>
+            <p style="margin: 15px 0 5px 0;"><strong>Service Hours:</strong></p>
+            <p style="margin: 0; font-size: 0.95rem;">Monday - Friday: 9am - 5pm</p>
+            <p style="margin: 5px 0 0 0; font-size: 0.95rem;">Saturday - Sunday: Closed</p>
+
+            <p style="margin: 20px 0 5px 0;"><strong>Primary Coverage Area:</strong></p>
+            <p style="margin: 0; font-size: 0.95rem;">Proudly providing direct mobile device pickup and tech deployment services throughout Santa Barbara, CA.</p>
+            
+            <p style="margin: 20px 0 5px 0; color: #666; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em;">Secondary Workspace:</p>
+            <p style="margin: 0; font-size: 0.85rem; color: #555;">Physical consultations available strictly by advance coordination at our Downtown Santa Barbara headquarters.</p>
+        </div>
+
+    </div>
+
+</div>
 
 </section>
 
 <style>
-/* FORCE BRAND STYLE PROTOCOL */
 body, html, 
 .hextra-body, 
 main, 
@@ -80,27 +160,23 @@ article,
     font-family: 'Inter', sans-serif !important;
 }
 
-/* TECHNICAL ANCHOR HEADERS (FOREST GREEN FORCE) */
 h1, h2, h3, h4, .hextra-title, .hx-text-neutral-900 {
-    color: #2D4F38 !important; /* Set to your crisp brand Forest Green */
+    color: #2D4F38 !important; 
     text-transform: uppercase !important;
     letter-spacing: 0.05em !important; 
     font-weight: 900 !important;
 }
 
-/* SYSTEM ACCENT LINKS (TERRACOTTA CLAY FOR INSTANT CONTRAST) */
-a, .hx-text-primary-600 {
-    color: #A65E4E !important; /* Switched to high-visibility Terracotta */
+a, .hx-text-primary-600, .nextra-nav-container a:hover {
+    color: #A65E4E !important; 
     text-decoration: underline !important;
     font-weight: 600 !important;
 }
 
-/* INDUSTRIAL HOVER EFFECT */
 a:hover {
-    color: #1A1C1A !important; /* Swaps to crisp charcoal on link hover */
+    color: #1A1C1A !important; 
 }
 
-/* ACTIONS & MODULE INTERFACES (TERRACOTTA BACKED) */
 .btn, 
 button, 
 input[type="submit"], 
@@ -119,14 +195,12 @@ a[href="#services-page"],
     text-decoration: none !important;
 }
 
-/* HARD EDGES ONLY */
 *, input, select, textarea, .info-card, .sticky-sidebar-box, .btn, img, button {
     border-radius: 0px !important; 
     box-shadow: none !important;   
 }
 
-/* BLUEPRINT LINE DIVISION */
-hr, .border-b {
+hr {
     border: 0 !important;
     border-top: 1px solid #E5E7E5 !important; 
 }
