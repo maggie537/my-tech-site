@@ -79,21 +79,27 @@ article,
     font-family: 'Inter', sans-serif !important;
 }
 
-/* ARCHITECTURAL TYPOGRAPHY & TRACKING */
+/* TECHNICAL ANCHOR HEADERS (FOREST GREEN FORCE) */
 h1, h2, h3, h4, .hextra-title, .hx-text-neutral-900 {
-    color: #1A1C1A !important;
+    color: #2D4F38 !important; /* Set to your crisp brand Forest Green */
     text-transform: uppercase !important;
     letter-spacing: 0.05em !important; 
     font-weight: 900 !important;
 }
 
-/* TECHNICAL ANCHOR (FOREST GREEN) */
-a, .hx-text-primary-600, .nextra-nav-container a:hover {
-    color: #2D4F38 !important;
+/* SYSTEM ACCENT LINKS (TERRACOTTA CLAY FOR INSTANT CONTRAST) */
+a, .hx-text-primary-600 {
+    color: #A65E4E !important; /* Switched to high-visibility Terracotta */
     text-decoration: underline !important;
+    font-weight: 600 !important;
 }
 
-/* SYSTEM ACCENT ACTIONS (TERRACOTTA CLAY FORCE) */
+/* INDUSTRIAL HOVER EFFECT */
+a:hover {
+    color: #1A1C1A !important; /* Swaps to crisp charcoal on link hover */
+}
+
+/* ACTIONS & MODULE INTERFACES (TERRACOTTA BACKED) */
 .btn, 
 button, 
 input[type="submit"], 
@@ -109,6 +115,7 @@ a[href="#services-page"],
     letter-spacing: 0.1em !important;
     padding: 10px 20px !important;
     display: inline-block !important;
+    text-decoration: none !important;
 }
 
 /* HARD EDGES ONLY */
