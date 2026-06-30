@@ -49,88 +49,65 @@ Data-driven solutions for business efficiency. Learn how to implement modern AI 
 
 <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
 
-<section id="contact" style="padding: 20px 0;">
-
 ## Contact Support & Service
 
-<div style="display: flex; flex-wrap: wrap; gap: 50px; margin-top: 30px;">
+For the fastest diagnostic scheduling, complete your request below. **Our primary service format is direct device pickup and on-site dispatch.** Skip the traffic—we handle all transit diagnostics securely.
 
-    <div style="flex: 2; min-width: 320px;">
-        <p style="margin-bottom: 25px; font-size: 1.1rem; line-height: 1.6;">
-            For the fastest diagnostic scheduling, complete your request below. 
-            <strong>Our primary service format is direct device pickup and on-site dispatch.</strong> 
-            Skip the traffic—we handle all transit diagnostics securely.
-        </p>
-        <form action="/submit" method="POST" enctype="multipart/form-data" style="display: flex; flex-direction: column; gap: 20px;">
-            <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-                <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 5px;">
-                    <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">Your Email Address:</label>
-                    <input type="email" name="email" required style="padding: 12px; border: 1px solid #1A1C1A; outline: none; background: #FFF;">
-                </div>
-                <div style="flex: 1; min-width: 240px; display: flex; flex-direction: column; gap: 5px;">
-                    <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">Phone Number:</label>
-                    <input type="tel" name="phone" required placeholder="805-XXX-XXXX" style="padding: 12px; border: 1px solid #1A1C1A; outline: none; background: #FFF;">
-                </div>
-            </div>
-            <div style="display: flex; flex-direction: column; gap: 8px; padding: 5px 0;">
-                <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">How would you prefer to be contacted?</label>
-                <div style="display: flex; gap: 20px; align-items: center;">
-                    <label style="font-weight: normal; text-transform: none; display: flex; align-items: center; gap: 6px; cursor: pointer;">
-                        <input type="radio" name="contact_preference" value="email" checked style="accent-color: #A65E4E;"> Email Me
-                    </label>
-                    <label style="font-weight: normal; text-transform: none; display: flex; align-items: center; gap: 6px; cursor: pointer;">
-                        <input type="radio" name="contact_preference" value="text" style="accent-color: #A65E4E;"> Text/SMS Me
-                    </label>
-                    <label style="font-weight: normal; text-transform: none; display: flex; align-items: center; gap: 6px; cursor: pointer;">
-                        <input type="radio" name="contact_preference" value="call" style="accent-color: #A65E4E;"> Call Me
-                    </label>
-                </div>
-            </div>
-            <div style="display: flex; flex-direction: column; gap: 5px;">
-                <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">Preferred Logistics Format:</label>
-                <select name="service_location" required style="padding: 12px; border: 1px solid #1A1C1A; outline: none; background: #FFF;">
-                    <option value="pickup" selected>Secure Device Pickup (Recommended / Most Convenient)</option>
-                    <option value="home-visit">On-Site Residential Support (I come to your home)</option>
-                    <option value="office-visit">On-Site Commercial Support (I come to your business)</option>
-                    <option value="remote">Remote Digital Support (Online/Phone)</option>
-                    <option value="downtown-office">Meet at my Downtown Office (By Appointment Only)</option>
-                </select>
-            </div>
-            <div style="display: flex; flex-direction: column; gap: 5px;">
-                <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">Describe the Hardware/Software Issue:</label>
-                <textarea name="description" rows="5" required placeholder="Provide device model details and specific symptoms..." style="padding: 12px; border: 1px solid #1A1C1A; outline: none; resize: vertical; background: #FFF;"></textarea>
-            </div>
-            <div style="display: flex; flex-direction: column; gap: 5px;">
-                <label style="font-weight: bold; font-size: 0.9rem; text-transform: uppercase;">Upload Photos / Screenshots (Optional):</label>
-                <input type="file" name="photo" accept="image/*" style="padding: 8px 0;">
-            </div>
-            <button type="submit" class="btn" style="align-self: flex-start; cursor: pointer; padding: 15px 30px;">Submit Support Request</button>
-        </form>
-    </div>
-
-    <div style="flex: 1; min-width: 260px; display: flex; flex-direction: column; gap: 30px;">
-        <div style="border: 1px solid #1A1C1A; padding: 25px; background-color: #FFFFFF;">
-            <h3 style="margin-top: 0; font-size: 1.1rem; border-bottom: 1px solid #E5E7E5; padding-bottom: 10px;">Direct Channels</h3>
-            <p style="margin: 15px 0 5px 0;"><strong>Call or Text:</strong></p>
-            <p style="font-size: 1.2rem; font-weight: bold; margin: 0;">805-225-7885</p>
-            <p style="margin: 20px 0 5px 0;"><strong>Direct Intake Email:</strong></p>
-            <p style="margin: 0;"><a href="mailto:Maggie@thesbtechgal.com">Maggie@thesbtechgal.com</a></p>
+<form action="/submit" method="POST" enctype="multipart/form-data" class="brand-contact-form">
+    <div class="form-row">
+        <div class="form-field">
+            <label>Your Email Address:</label>
+            <input type="email" name="email" required>
         </div>
-        <div style="border: 1px solid #1A1C1A; padding: 25px; background-color: #FFFFFF;">
-            <h3 style="margin-top: 0; font-size: 1.1rem; border-bottom: 1px solid #E5E7E5; padding-bottom: 10px;">Operational Parameters</h3>
-            <p style="margin: 15px 0 5px 0;"><strong>Service Hours:</strong></p>
-            <p style="margin: 0; font-size: 0.95rem;">Monday - Friday: 9am - 5pm</p>
-            <p style="margin: 5px 0 0 0; font-size: 0.95rem;">Saturday - Sunday: Closed</p>
-            <p style="margin: 20px 0 5px 0;"><strong>Primary Coverage Area:</strong></p>
-            <p style="margin: 0; font-size: 0.95rem;">Proudly providing direct mobile device pickup and tech deployment services throughout Santa Barbara, CA.</p>
-            <p style="margin: 20px 0 5px 0; color: #666; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em;">Secondary Workspace:</p>
-            <p style="margin: 0; font-size: 0.85rem; color: #555;">Physical consultations available strictly by advance coordination at our Downtown Santa Barbara headquarters.</p>
+        <div class="form-field">
+            <label>Phone Number:</label>
+            <input type="tel" name="phone" required placeholder="805-XXX-XXXX">
         </div>
     </div>
 
-</div>
+    <div class="form-field">
+        <label>How would you prefer to be contacted?</label>
+        <div class="radio-group">
+            <label class="radio-label"><input type="radio" name="contact_preference" value="email" checked> Email Me</label>
+            <label class="radio-label"><input type="radio" name="contact_preference" value="text"> Text/SMS Me</label>
+            <label class="radio-label"><input type="radio" name="contact_preference" value="call"> Call Me</label>
+        </div>
+    </div>
 
-</section>
+    <div class="form-field">
+        <label>Preferred Logistics Format:</label>
+        <select name="service_location" required>
+            <option value="pickup" selected>Secure Device Pickup (Recommended / Most Convenient)</option>
+            <option value="home-visit">On-Site Residential Support (I come to your home)</option>
+            <option value="office-visit">On-Site Commercial Support (I come to your business)</option>
+            <option value="remote">Remote Digital Support (Online/Phone)</option>
+            <option value="downtown-office">Meet at my Downtown Office (By Appointment Only)</option>
+        </select>
+    </div>
+
+    <div class="form-field">
+        <label>Describe the Hardware/Software Issue:</label>
+        <textarea name="description" rows="5" required placeholder="Provide device model details and specific symptoms..."></textarea>
+    </div>
+
+    <div class="form-field">
+        <label>Upload Photos / Screenshots (Optional):</label>
+        <input type="file" name="photo" accept="image/*">
+    </div>
+
+    <button type="submit" class="btn submit-btn">Submit Support Request</button>
+</form>
+
+<hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
+
+### Direct Channels
+* **Call or Text:** 805-225-7885
+* **Direct Intake Email:** Maggie@thesbtechgal.com
+
+### Operational Parameters
+* **Service Hours:** Monday - Friday: 9am - 5pm | Saturday - Sunday: Closed
+* **Primary Coverage Area:** Proudly providing direct mobile device pickup and tech deployment services throughout Santa Barbara, CA.
+* **Secondary Workspace:** Physical consultations available strictly by advance coordination at our Downtown Santa Barbara headquarters.
 
 <style>
 body, html, 
@@ -160,8 +137,58 @@ a, .hx-text-primary-600, .nextra-nav-container a:hover {
     font-weight: 600 !important;
 }
 
-a:hover {
-    color: #1A1C1A !important; 
+.brand-contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin-top: 25px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+    min-width: 240px;
+}
+
+.form-field label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.form-field input, .form-field select, .form-field textarea {
+    padding: 12px;
+    border: 1px solid #1A1C1A;
+    outline: none;
+    background: #FFF;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.radio-label {
+    font-weight: normal !important;
+    text-transform: none !important;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.radio-label input {
+    accent-color: #A65E4E;
 }
 
 .btn, 
@@ -177,9 +204,11 @@ a[href="#services-page"],
     font-family: 'JetBrains Mono', monospace !important;
     text-transform: uppercase !important;
     letter-spacing: 0.1em !important;
-    padding: 10px 20px !important;
+    padding: 15px 30px !important;
     display: inline-block !important;
     text-decoration: none !important;
+    align-self: flex-start;
+    cursor: pointer;
 }
 
 *, input, select, textarea, .info-card, .sticky-sidebar-box, .btn, img, button {
