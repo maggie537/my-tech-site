@@ -6,8 +6,7 @@ type: page
 ---
 
 <section id="about" style="text-align: center; padding: 60px 20px;">
-<h1>Trusted Experts in Our Industry Since 2026</h1>
-<p>We provide reliable, fast, and high-quality services to help you fix your problems.</p>
+<p>Seamless Technology Support for Santa Barbara & Montecito. Managing home and business technology should be effortless. I provide precise, professional computer and printer repair designed to keep your day-to-day operations running smoothly.</p>
 <a href="#services-page" class="btn">Upgrade Your Device</a>
 </section>
 
