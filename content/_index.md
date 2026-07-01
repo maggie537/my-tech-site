@@ -114,7 +114,7 @@ h1, h2, h3, h4, .hextra-title, .hx-text-neutral-900 {
     font-weight: 900 !important;
 }
 a, .hx-text-primary-600, .nextra-nav-container a:hover {
-    color: #A65E4E !important; 
+    color: #C55932 !important; 
     text-decoration: underline !important;
     font-weight: 600 !important;
 }
@@ -162,10 +162,10 @@ a, .hx-text-primary-600, .nextra-nav-container a:hover {
     cursor: pointer;
 }
 .radio-label input {
-    accent-color: #A65E4E;
+    accent-color: #C55932;
 }
 .btn, button, input[type="submit"], .submit-btn, .hextra-button, a[href="#services-page"] {
-    background-color: #A65E4E !important; 
+    background-color: #C55932 !important; 
     color: #FFFFFF !important;
     border: 1px solid #1A1C1A !important;
     font-family: 'JetBrains Mono', monospace !important;
