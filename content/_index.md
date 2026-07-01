@@ -6,7 +6,9 @@ type: page
 ---
 
 <section id="about" style="text-align: center; padding: 60px 20px;">
-<p>Seamless Technology Support for Santa Barbara & Montecito. I provide precise, professional computer and printer repair designed to keep your day-to-day operations running smoothly.</p>
+<p>Precision technology support for Santa Barbara and Montecito. Expert computer and printer repair solutions designed to extend the lifespan of your equipment and keep your essential operations running without interruption.
+
+For those who value sustainability, I offer a professional alternative to the cycle of constant replacement. I provide the technical care necessary to restore efficiency to your existing devices, ensuring they continue to serve your needs reliably and cost-effectively.</p>
 <a href="#services-page" class="btn">Upgrade Your Device</a>
 </section>
 
