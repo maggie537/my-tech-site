@@ -26,9 +26,10 @@ menu:
 
 params:
   navbar:
-    displayTitle: true    # Keeps your text title "SB Tech Gal" next to the logo
-    logo: "logo.png"       # Points directly to your uploaded asset in the static folder
-    displayLogo: true     # Instantly activates the graphic container
+    displayTitle: true      # Keeps your text title "SB Tech Gal" next to the logo
+    displayLogo: true       # Instantly activates the graphic container
+    logo:
+      path: "logo.png"      # CRITICAL FIX: Maps the nested path variable correctly
 
   footer:
     displayCopyright: false
