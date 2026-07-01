@@ -6,7 +6,7 @@ type: page
 ---
 
 <section id="about" style="text-align: center; padding: 60px 20px;">
-<p>Seamless Technology Support for Santa Barbara & Montecito. Managing home and business technology should be effortless. I provide precise, professional computer and printer repair designed to keep your day-to-day operations running smoothly.</p>
+<p>Seamless Technology Support for Santa Barbara & Montecito. I provide precise, professional computer and printer repair designed to keep your day-to-day operations running smoothly.</p>
 <a href="#services-page" class="btn">Upgrade Your Device</a>
 </section>
 
@@ -14,8 +14,7 @@ type: page
 
 <section id="services-page">
 
-## Our Professional Services
-We provide top-tier support and repair solutions designed to keep you up and running efficiently.
+
 
 ### How I Can Help You
 ![Macbook and iMac Repair](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80)
@@ -51,9 +50,6 @@ Helping your business work smarter, not harder. I assist local Santa Barbara bus
 
 <section id="contact">
 
-## Contact Support & Service
-
-For the fastest diagnostic scheduling, complete your request below. **Our primary service format is direct device pickup and on-site dispatch.** Skip the traffic—we handle all transit diagnostics securely.
 
 <form action="https://formspree.io/f/your-id" method="POST" class="brand-contact-form">
     </form>
