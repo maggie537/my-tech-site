@@ -188,12 +188,12 @@ hr {
 
     /* NAVBAR LOGO & TITLE ENHANCEMENT */
 .nextra-nav-container img {
-    max-height: 48px !important;
+    max-height: 75px !important;
     width: auto !important;
 }
 
 .nextra-nav-container a span {
-    font-size: 1.4rem !important; /* Upscales the "SB Tech Gal" text next to logo */
+    font-size: 2.4rem !important; /* Upscales the "SB Tech Gal" text next to logo */
     font-weight: 900 !important;   /* Locks it to a bold architectural weight */
     letter-spacing: 0.05em !important;
 }
