@@ -12,7 +12,6 @@ markup:
     renderer:
       unsafe: true
 
-  # enable hextra syntax highlight
   highlight:
     noClasses: false
 
@@ -27,12 +26,13 @@ menu:
 
 params:
   navbar:
-    displayTitle: true
-    displayLogo: false
+    displayTitle: true    # Keeps your text title "SB Tech Gal" next to the logo
+    logo: "logo.png"       # Points directly to your uploaded asset in the static folder
+    displayLogo: true     # Instantly activates the graphic container
 
   footer:
     displayCopyright: false
-    displayPoweredBy: true
+    displayPoweredBy: false
 
   editURL:
     enable: false
