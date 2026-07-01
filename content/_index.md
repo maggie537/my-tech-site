@@ -46,8 +46,6 @@ Helping your business work smarter, not harder. I assist local Santa Barbara bus
 
 </section>
 
-<hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
-
 <section id="contact">
 
 
