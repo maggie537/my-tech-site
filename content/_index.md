@@ -191,38 +191,42 @@ hr {
 .hx-navbar, 
 nav.hx-flex,
 header {
-    height: 180px !important; /* Tripled height profile to hold a massive logo */
-    padding: 0 20px !important;
+    height: 180px !important; /* Expanded structural header layout footprint */
 }
 
-/* Push down the main body content drastically so this new giant header doesn't hide it */
+/* Push down body layout content to avoid overlapping */
 body, main, .hextra-body {
     padding-top: 140px !important;
 }
 
-/* Force the logo layout link row to occupy full expanded height */
+/* TARGET THE THEME'S SPECIFIC LOGO WRAPPERS DIRECTLY */
+.hx-logo,
+.hx-logo svg,
+.hx-logo img,
+nav.hx-flex a[href="/"],
+.nextra-nav-container a img {
+    height: 130px !important;     /* Forces the restricted asset wrap to expand */
+    max-height: 130px !important; /* Strips theme constraints holding back image bounds */
+    width: auto !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* Ensure the layout anchor item stretches appropriately */
 .nextra-nav-container a.hx-flex,
 .nextra-nav-container nav a,
 .hx-navbar a {
     display: flex !important;
     align-items: center !important;
-    height: 100% !important;
-    gap: 30px !important; /* Generous industrial space between giant asset and title */
+    gap: 30px !important; /* Generous industrial workspace gap */
 }
 
-/* Tripled Logo Graphic Dimensions */
-.nextra-nav-container img,
-.hx-navbar img {
-    max-height: 130px !important; /* Pushed from 55px straight up to 130px */
-    width: auto !important;
-    display: inline-block !important;
-}
-
-/* Tripled Brand Text Typography */
+/* Scale text brand identifier alongside the giant asset */
 .nextra-nav-container a span,
 .nextra-nav-container nav a span,
-.hx-navbar a span {
-    font-size: 3.5rem !important; /* Scaled to a massive, unmistakable premium header size */
+.hx-navbar a span,
+.hx-logo span {
+    font-size: 3.5rem !important; /* Commanding uppercase scale factor */
     font-weight: 900 !important;   
     letter-spacing: 0.05em !important;
     display: inline-block !important;
