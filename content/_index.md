@@ -191,42 +191,41 @@ hr {
 .hx-navbar, 
 nav.hx-flex,
 header {
-    height: 180px !important; /* Expanded structural header layout footprint */
+    height: 180px !important; /* Expands the header bar box to hold a premium logo */
 }
 
-/* Push down body layout content to avoid overlapping */
+/* Clear vertical workspace so content doesn't tuck beneath the expanded header */
 body, main, .hextra-body {
     padding-top: 140px !important;
 }
 
-/* TARGET THE THEME'S SPECIFIC LOGO WRAPPERS DIRECTLY */
+/* FORCE THE HEXTRA CONTAINER LOGO CAGE TO EXPAND */
 .hx-logo,
-.hx-logo svg,
 .hx-logo img,
-nav.hx-flex a[href="/"],
-.nextra-nav-container a img {
-    height: 130px !important;     /* Forces the restricted asset wrap to expand */
-    max-height: 130px !important; /* Strips theme constraints holding back image bounds */
+.hx-logo svg,
+.nextra-nav-container a img,
+nav.hx-flex a[href="/"] img {
+    height: 130px !important;     /* Forces image frame from 32px up to 130px */
+    max-height: 130px !important; /* Bypasses the theme's default constraints */
     width: auto !important;
-    display: flex !important;
-    align-items: center !important;
+    display: block !important;
 }
 
-/* Ensure the layout anchor item stretches appropriately */
+/* Align the items in a clean row layout */
 .nextra-nav-container a.hx-flex,
 .nextra-nav-container nav a,
 .hx-navbar a {
     display: flex !important;
     align-items: center !important;
-    gap: 30px !important; /* Generous industrial workspace gap */
+    gap: 25px !important; /* Perfect visual spacing between icon and text */
 }
 
-/* Scale text brand identifier alongside the giant asset */
+/* Upscale the "SB Tech Gal" text brand identifier */
 .nextra-nav-container a span,
 .nextra-nav-container nav a span,
 .hx-navbar a span,
 .hx-logo span {
-    font-size: 3.5rem !important; /* Commanding uppercase scale factor */
+    font-size: 3.5rem !important; /* Bold, high-end title typography */
     font-weight: 900 !important;   
     letter-spacing: 0.05em !important;
     display: inline-block !important;
