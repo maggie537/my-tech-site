@@ -185,9 +185,10 @@ hr {
     border: 0 !important;
     border-top: 1px solid #E5E7E5 !important; 
 }
+
     /* NAVBAR LOGO & TITLE ENHANCEMENT */
 .nextra-nav-container img {
-    max-height: 48px !important; /* Increases logo height from 32px to 48px */
+    max-height: 48px !important;
     width: auto !important;
 }
 
