@@ -16,7 +16,7 @@ type: page
 
 
 
-### How I Can Help You
+### Services
 ![Macbook and iMac Repair](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80)
 
 Hardware, networking, operating systems, and software—including printers. I fix it right the first time to extend the life of your devices.
