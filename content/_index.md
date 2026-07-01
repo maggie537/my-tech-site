@@ -17,12 +17,12 @@ type: page
 ## Our Professional Services
 We provide top-tier support and repair solutions designed to keep you up and running efficiently.
 
-### Technical Support & Repair
+### How I Can Help You
 ![Macbook and iMac Repair](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80)
 
-Hardware, networking, operating systems, and software—including printers. We fix it right the first time to extend the life of your devices.
+Hardware, networking, operating systems, and software—including printers. I fix it right the first time to extend the life of your devices.
 * Component diagnostics and replacement
-* Network configuration and troubleshooting
+* Getting your Wi-Fi and internet connection working properly
 * Printer and accessory setup
 
 <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
@@ -30,17 +30,17 @@ Hardware, networking, operating systems, and software—including printers. We f
 ### Security & Upgrades
 ![Hardware Upgrades](https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1200&q=80)
 
-System optimization and security protocols to ensure your data stays safe and your machines run smoothly. Upgrading storage and memory can make older devices faster than the day they were purchased.
-* Malware and virus removal
-* Performance tuning and hardware cleanup
-* Solid-state drive (SSD) and memory upgrades
+I ensure your data remains secure and your hardware performs at its peak. Whether you need a performance boost or a complete system refresh, I have you covered:
+* Security & Maintenance: Expert malware and virus removal to keep your system safe and stable.
+* Performance Tuning: Comprehensive hardware cleanup and system optimization.
+* Hardware Upgrades: Installation of high-speed SSDs and increased memory (RAM) to make older devices faster than the day they were purchased.
 
 <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
 
 ### AI Workflow Consulting
 ![AI Workflow Consulting](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80)
 
-Data-driven solutions for business efficiency. Learn how to implement modern AI tools into your daily workflows safely and securely.
+Helping your business work smarter, not harder. I assist local Santa Barbara businesses in adopting modern tools to automate daily tasks and improve productivity, safely and securely.
 * Workflow automation audits
 * Custom AI tool integrations
 * Employee productivity training
@@ -65,7 +65,7 @@ For the fastest diagnostic scheduling, complete your request below. **Our primar
 * **Direct Intake Email:** Maggie@thesbtechgal.com
 
 * **Service Hours:** Monday - Sunday: 8am - 6pm | 
-* **Primary Coverage Area:** Proudly providing direct mobile device pickup and tech deployment services throughout Santa Barbara, CA.
+* **Primary Coverage Area:** Serving the Central Coast from Santa Maria to Oxnard. I provide dedicated support for homes and businesses in Santa Barbara, Montecito, Goleta, Carpinteria, and beyond.
 * **Secondary Workspace:** Physical consultations available strictly by advance coordination at our Downtown Santa Barbara headquarters.
 
 </section>
