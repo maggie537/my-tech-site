@@ -27,9 +27,8 @@ menu:
 
 params:
   navbar:
-    displayTitle: true    # Keeps your text title "SB Tech Gal" next to the logo
-    logo: "logo.jpg"       # Points directly to your uploaded asset in the static folder
-    displayLogo: true     # Instantly activates the graphic container
+    displayTitle: true
+    displayLogo: false
 
   footer:
     displayCopyright: false
