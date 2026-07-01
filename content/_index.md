@@ -61,12 +61,11 @@ For the fastest diagnostic scheduling, complete your request below. **Our primar
 
 <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
 
-### Direct Channels
+### Contact
 * **Call or Text:** 805-225-7885
 * **Direct Intake Email:** Maggie@thesbtechgal.com
 
-### Operational Parameters
-* **Service Hours:** Monday - Friday: 9am - 5pm | Saturday - Sunday: Closed
+* **Service Hours:** Monday - Sunday: 8am - 6pm | 
 * **Primary Coverage Area:** Proudly providing direct mobile device pickup and tech deployment services throughout Santa Barbara, CA.
 * **Secondary Workspace:** Physical consultations available strictly by advance coordination at our Downtown Santa Barbara headquarters.
 
@@ -110,14 +109,6 @@ For the fastest diagnostic scheduling, complete your request below. **Our primar
 
 <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
 
-### Direct Channels
-* **Call or Text:** 805-225-7885
-* **Direct Intake Email:** Maggie@thesbtechgal.com
-
-### Operational Parameters
-* **Service Hours:** Monday - Friday: 9am - 5pm | Saturday - Sunday: Closed
-* **Primary Coverage Area:** Proudly providing direct mobile device pickup and tech deployment services throughout Santa Barbara, CA.
-* **Secondary Workspace:** Physical consultations available strictly by advance coordination at our Downtown Santa Barbara headquarters.
 
 <style>
 body, html, main, section, div, article, .hextra-body, .hx-bg-neutral-100, .nextra-nav-container {
