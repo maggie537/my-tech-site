@@ -7,8 +7,7 @@ type: page
 
 <section id="about" style="text-align: center; padding: 60px 20px;">
 <p>Precision technology support for Santa Barbara and Montecito. Expert computer and printer repair solutions designed to extend the lifespan of your equipment and keep your essential operations running without interruption.
-
-For those who value sustainability, I offer a professional alternative to the cycle of constant replacement. I provide the technical care necessary to restore efficiency to your existing devices, ensuring they continue to serve your needs reliably and cost-effectively.</p>
+I provide the technical care to preserve the integrity of your essential systems, ensuring your digital estate operates with absolute fluidity, discretion, and peak performance.</p>
 <a href="#services-page" class="btn">Upgrade Your Device</a>
 </section>
 
@@ -28,23 +27,22 @@ Hardware, networking, operating systems, and software—including printers. I fi
 
 <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
 
-### Security & Upgrades
-![Hardware Upgrades](https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1200&q=80)
+### Security & Infrastructure Assurance
+![Hardware Upgrades](https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=800&q=80)
 
-I ensure your data remains secure and your hardware performs at its peak. Whether you need a performance boost or a complete system refresh, I have you covered:
-* Security & Maintenance: Expert malware and virus removal to keep your system safe and stable.
-* Performance Tuning: Comprehensive hardware cleanup and system optimization.
-* Hardware Upgrades: Installation of high-speed SSDs and increased memory (RAM) to make older devices faster than the day they were purchased.
+Digital Discretion & Cybersecurity: Advanced threat mitigation, malware remediation, and data privacy protocols designed to safeguard sensitive corporate intelligence and private family office assets.
+Network Optimization: Bespoke configuration of high-capacity Wi-Fi and enterprise-grade internet connectivity to ensure seamless, uninterrupted operations across your estate or commercial workspace.
+Performance Architecture: High-speed SSD integration and memory engineering to optimize hardware infrastructure, ensuring your systems perform at peak executive capacity.
 
 <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
 
 ### AI Workflow Consulting
 ![AI Workflow Consulting](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80)
 
-Helping your business work smarter, not harder. I assist local Santa Barbara businesses in adopting modern tools to automate daily tasks and improve productivity, safely and securely.
-* Workflow automation audits
-* Custom AI tool integrations
-* Employee productivity training
+I assist local Santa Barbara homes and businesses in architecting intelligent, automated workflows to alleviate operational friction and elevate daily productivity.  
+Workflow Automation Audits: Comprehensive operational assessments to identify hidden bottlenecks and streamline your day-to-day infrastructure.  
+Tailored AI Integrations: Custom implementation of secure, cutting-edge artificial intelligence tools engineered precisely for your lifestyle or operational DNA.  
+Performance & Productivity Training: Tailored, high-efficiency guidance to ensure your family, staff, or team masterfully adopts and maximizes these modern assets. 
 
 </section>
 
@@ -99,7 +97,7 @@ Helping your business work smarter, not harder. I assist local Santa Barbara bus
         <label>Describe the Hardware/Software Issue:</label>
         <textarea name="description" rows="5" required placeholder="Provide device model details and specific symptoms..."></textarea>
     </div>
-    <button type="submit" class="btn submit-btn">Submit Support Request</button>
+    <button type="submit" class="btn submit-btn">Request a Private Consultation.</button>
 </form>
 
 <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
