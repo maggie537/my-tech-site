@@ -186,38 +186,44 @@ hr {
     border-top: 1px solid #E5E7E5 !important; 
 }
 
-  /* NAVBAR STRUCTURE & LOGO BALANCE ENHANCEMENT */
+/* NAVBAR STRUCTURE & LOGO MASSIVE SCALE ENHANCEMENT */
 .nextra-nav-container, 
 .hx-navbar, 
-nav.hx-flex {
-    height: 90px !important; /* Expands the master nav structural height */
+nav.hx-flex,
+header {
+    height: 180px !important; /* Tripled height profile to hold a massive logo */
+    padding: 0 20px !important;
 }
 
-/* Force body text downward so the expanded header doesn't clip content */
-body {
-    padding-top: 30px !important;
+/* Push down the main body content drastically so this new giant header doesn't hide it */
+body, main, .hextra-body {
+    padding-top: 140px !important;
 }
 
-/* Boost the logo dimensions */
-.nextra-nav-container img {
-    max-height: 55px !important; /* Scaled to visually anchor the row */
+/* Force the logo layout link row to occupy full expanded height */
+.nextra-nav-container a.hx-flex,
+.nextra-nav-container nav a,
+.hx-navbar a {
+    display: flex !important;
+    align-items: center !important;
+    height: 100% !important;
+    gap: 30px !important; /* Generous industrial space between giant asset and title */
+}
+
+/* Tripled Logo Graphic Dimensions */
+.nextra-nav-container img,
+.hx-navbar img {
+    max-height: 130px !important; /* Pushed from 55px straight up to 130px */
     width: auto !important;
     display: inline-block !important;
 }
 
-/* Deep layout targeting for Hextra's link component wrap */
-.nextra-nav-container a.hx-flex,
-.nextra-nav-container nav a {
-    display: flex !important;
-    align-items: center !important;
-    gap: 15px !important; /* Crisp blueprint spacing between icon and text */
-}
-
-/* Upscale and align the text branding element */
+/* Tripled Brand Text Typography */
 .nextra-nav-container a span,
-.nextra-nav-container nav a span {
-    font-size: 1.8rem !important; /* Master balance contrast scaling */
-    font-weight: 900 !important;   /* Hard architectural weight */
+.nextra-nav-container nav a span,
+.hx-navbar a span {
+    font-size: 3.5rem !important; /* Scaled to a massive, unmistakable premium header size */
+    font-weight: 900 !important;   
     letter-spacing: 0.05em !important;
     display: inline-block !important;
     line-height: 1 !important;
