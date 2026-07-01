@@ -50,9 +50,27 @@ Data-driven solutions for business efficiency. Learn how to implement modern AI 
 
 <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
 
+<section id="contact">
+
 ## Contact Support & Service
 
 For the fastest diagnostic scheduling, complete your request below. **Our primary service format is direct device pickup and on-site dispatch.** Skip the traffic—we handle all transit diagnostics securely.
+
+<form action="https://formspree.io/f/your-id" method="POST" class="brand-contact-form">
+    </form>
+
+<hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
+
+### Direct Channels
+* **Call or Text:** 805-225-7885
+* **Direct Intake Email:** Maggie@thesbtechgal.com
+
+### Operational Parameters
+* **Service Hours:** Monday - Friday: 9am - 5pm | Saturday - Sunday: Closed
+* **Primary Coverage Area:** Proudly providing direct mobile device pickup and tech deployment services throughout Santa Barbara, CA.
+* **Secondary Workspace:** Physical consultations available strictly by advance coordination at our Downtown Santa Barbara headquarters.
+
+</section>
 
 <form action="https://formspree.io/f/your-id" method="POST" class="brand-contact-form">
     <div class="form-row">
