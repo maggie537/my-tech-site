@@ -186,15 +186,40 @@ hr {
     border-top: 1px solid #E5E7E5 !important; 
 }
 
-    /* NAVBAR LOGO & TITLE ENHANCEMENT */
-.nextra-nav-container img {
-    max-height: 75px !important;
-    width: auto !important;
+  /* NAVBAR STRUCTURE & LOGO BALANCE ENHANCEMENT */
+.nextra-nav-container, 
+.hx-navbar, 
+nav.hx-flex {
+    height: 90px !important; /* Expands the master nav structural height */
 }
 
-.nextra-nav-container a span {
-    font-size: 2.4rem !important; /* Upscales the "SB Tech Gal" text next to logo */
-    font-weight: 900 !important;   /* Locks it to a bold architectural weight */
+/* Force body text downward so the expanded header doesn't clip content */
+body {
+    padding-top: 30px !important;
+}
+
+/* Boost the logo dimensions */
+.nextra-nav-container img {
+    max-height: 55px !important; /* Scaled to visually anchor the row */
+    width: auto !important;
+    display: inline-block !important;
+}
+
+/* Deep layout targeting for Hextra's link component wrap */
+.nextra-nav-container a.hx-flex,
+.nextra-nav-container nav a {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important; /* Crisp blueprint spacing between icon and text */
+}
+
+/* Upscale and align the text branding element */
+.nextra-nav-container a span,
+.nextra-nav-container nav a span {
+    font-size: 1.8rem !important; /* Master balance contrast scaling */
+    font-weight: 900 !important;   /* Hard architectural weight */
     letter-spacing: 0.05em !important;
+    display: inline-block !important;
+    line-height: 1 !important;
 }
 </style>
