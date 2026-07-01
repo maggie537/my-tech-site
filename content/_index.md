@@ -26,14 +26,11 @@ Hardware, networking, operating systems, and software—including printers. I fi
 * Printer and accessory setup
 
 <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
-
 ### Security & Infrastructure Assurance
 ![Hardware Upgrades](https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=800&q=80)
-
-Digital Discretion & Cybersecurity: Advanced threat mitigation, malware remediation, and data privacy protocols designed to safeguard sensitive corporate intelligence and private family office assets.
-Network Optimization: Bespoke configuration of high-capacity Wi-Fi and enterprise-grade internet connectivity to ensure seamless, uninterrupted operations across your estate or commercial workspace.
-Performance Architecture: High-speed SSD integration and memory engineering to optimize hardware infrastructure, ensuring your systems perform at peak executive capacity.
-
+*Digital Discretion & Asset Protection: Comprehensive threat mitigation and proactive security management to protect your privacy. We secure your personal devices, home networks, and family office infrastructure to ensure your private communications and sensitive assets remain strictly confidential.
+*Network Optimization: For your private residences and dedicated workspaces, I curate a seamless, high-capacity network that blankets your entire property. Every space is meticulously configured to ensure absolute continuity, completely eliminating dead zones. Your digital environment remains flawless, effortless, and entirely out of sight—giving you absolute peace of mind and the freedom to connect without interruption.
+Seamless Efficiency: High-speed SSD integration and memory engineering to optimize hardware infrastructure, ensuring your systems perform at peak executive capacity.
 <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
 
 ### AI Workflow Consulting
